@@ -1,0 +1,302 @@
+/*
+Theme Name: CJG Solutions
+Author: Christian J. Gibbs
+Author URI: http://www.cjgsolutions.com/
+Version: 1.0
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+p {
+  line-height: 1.65em;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+.site-header {
+  border-bottom: 2px solid #999;
+}
+
+/* Footer */
+.site-footer {
+  overflow: hidden;
+	margin-top: 30px;
+	border-top: 1px solid #DDD;
+	font-size: 84%;
+}
+
+/* Footer Nav Menu */
+.site-footer nav {
+	margin: 30px 0 10px 0;
+}
+
+.site-footer nav ul li {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #DDD;
+}
+
+.site-footer nav ul li:last-of-type {
+	border-right: none;
+}
+
+/* Footer Widget Area */
+.footer-widget-area {
+  width: 25%;
+  float: left;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+/* Navigation Menu */
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after {content: ""; display: table;}
+.site-nav ul:after {clear: both}
+.site-nav ul {*zoom: 1;}
+
+.site-nav ul li {
+  list-style: none;
+  float: left;
+}
+
+.site-nav ul li a:link,
+.site-nav ul li a:visited {
+	display: block;
+}
+
+/* Site Header Menu */
+.site-header nav ul li {
+  margin-right: 5px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+  display: block;
+  padding: 10px 18px;
+  border: 1px solid #bbb;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.site-header nav ul li a:hover {
+  background-color: #ececec;
+}
+
+.site-header nav ul li.current-menu-item a {
+  color: #fff;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link {
+  background-color: #0086ff;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Search */
+div.hd-search {
+  float: right;
+}
+
+div.hd-search #searchsubmit {
+  background-color: #0086ff;
+  color: #fff;
+  padding: 5px 14px;
+  border: none;
+  vertical-align: top;
+}
+
+  div.hd-search #searchsubmit:hover {
+    cursor: pointer;
+  }
+
+div.hd-search #s {
+  vertical-align: top;
+  padding: 3px 0;
+}
+
+/* General Layout */
+/* Main Column */
+.main-column {
+  width: 66%;
+  float: left;
+}
+
+/* Secondary Column */
+.side-column {
+  width: 30%;
+  float: right;
+}
+
+/* Page Layout */
+article.page h2 {
+  font-size: 300%;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after {content: ""; display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+
+/* Two Column Title layout */
+div.title-column {
+  float: left;
+}
+
+div.text-column {
+  float: left;
+}
+
+/* Children Links */
+.children-links {
+  margin-top: 20px;
+  font-size: 80%;
+}
+
+.children-links a:link,
+.children-links a:visited {
+  text-decoration: none;
+}
+
+.children-links ul {
+  float: left;
+}
+
+.children-links li {
+  margin-right: 20px;
+}
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited {
+  color: #0086ff;
+}
+
+.children-links .parent-link {
+  float: left;
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #ddd;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited {
+  border-bottom: 1px solid  #ddd;
+  color: #333;
+  cursor: default;
+}
+
+div.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Post Styles */
+.post h2 {
+  margin-bottom: 0;
+}
+
+p.post-info {
+  margin: 0;
+  font-size: 87%;
+  color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+  color: #999;
+}
+
+article.post {
+  border-bottom: 2px dotted #999;
+}
+
+article.post:last-of-type {
+  border-bottom: none;
+}
+
+/* Post Aside Styles */
+article.post-aside, article.post-link {
+  font-size: 125%;
+  background-color: #fff5cb;
+  padding: 20px;
+  margin: 20px 0px;
+  border-bottom: 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+}
+
+/* Post Link Styles */
+article.post-link {
+  padding: 0;
+  background-color: #e0ebff;
+}
+
+article.post-link a {
+  display: block;
+  color: #777;
+  padding: 20px;
+}
+
+/* Post Gallery Styles */
+article.post-gallery {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  margin: 20px 0px;
+  border-bottom: 0;
+}
+
+article.post-gallery img {
+  border: none !important;
+}
+
+article.post-gallery h2 {
+  text-align: center;
+}
+
+/* Post Columns home */
+.home-columns {
+  padding-top: 30px;
+}
+.one-half {
+  width: 45%;
+  float: left;
+  margin-right: 10%;
+}
+
+.last {
+  margin-right: 0;
+}
+
+/* Post Preview */
+.mini-meta {
+  font-size: 65%;
+  margin: 0;
+  color: #777;
+}
+
+.has-thumbnail {
+  position: relative;
+  padding-left: 200px;
+}
+
+.post-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
